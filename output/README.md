@@ -1,29 +1,37 @@
-# README Generator
 
-  ## Description
-  This is a README Generator
-  ## Table of Contents
+# awesome title
+
+![GNU Badge](https://img.shields.io/badge/License-GNU-red)
+
+## Description
+lksdlds
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+d
+
+## Usage
+sg
+
+## Credits
+f
+
+
+## License
+GNU General Public License v3.0
   
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Credits](#credits)
-  - [License](#license)
-  
-  ## Installation
-  npm i
-  ## Usage
-  run node index.js and follow prompts
-  ## Credits
-  test
-  ## License
-  MIT
-  ## Badges
-  
-  ## Features
-    
-  ## How to Contribute
-  email me
-  ## Tests
-    N/A
-  ## Questions
-  Please visit [my GitHub](http://www.github.com/shanna-not-shawna) or [email me](mailto:test@email.com) me with any questions.
+
+## Features
+
+## How to Contribute
+s
+## Tests
+s
+## Questions
+Please visit [my GitHub](http://www.github.com/test) or [email me](mailto:test@test.com) me with any questions.
