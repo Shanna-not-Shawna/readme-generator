@@ -1,10 +1,10 @@
 
-# awesome title
+# Super Awesome Title
 
-![GNU Badge](https://img.shields.io/badge/License-GNU-red)
+![GNU Badge](https://img.shields.io/badge/License-GPLv3-blue)
 
 ## Description
-lksdlds
+This project is really cool.
 
 ## Table of Contents
 
@@ -14,24 +14,22 @@ lksdlds
 - [License](#license)
 
 ## Installation
-d
+npm i
 
 ## Usage
-sg
+Run it.
 
 ## Credits
-f
+List super helpful people here
 
 
 ## License
 GNU General Public License v3.0
   
 
-## Features
-
 ## How to Contribute
-s
+email me
 ## Tests
-s
+npm test
 ## Questions
-Please visit [my GitHub](http://www.github.com/test) or [email me](mailto:test@test.com) me with any questions.
+Please visit [my GitHub](http://www.github.com/shanna-not-shawna) or [email me](mailto:test@email.com) me with any questions.
