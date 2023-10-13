@@ -45,7 +45,7 @@ const questions = [
     {
         type: 'input',
         name: 'credits',
-        message: 'Credits:',
+        message: 'List any credits:',
     },
     {
         type: 'input',

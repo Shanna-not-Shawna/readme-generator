@@ -4,16 +4,16 @@ function renderLicenseBadge(license) {
   switch (license) {
     case 'MIT License':
       
-      return '![MIT Badge](https://img.shields.io/badge/License-MIT-red)';
+      return '![MIT Badge](https://img.shields.io/badge/License-MIT-yellow)';
     case 'Apache License 2.0':
       
-      return '![Apache Badge](https://img.shields.io/badge/License-Apache-red)';
+      return '![Apache Badge](https://img.shields.io/badge/License-Apache_2.0-red)';
     case 'GNU General Public License v3.0':
       
-      return '![GNU Badge](https://img.shields.io/badge/License-GNU-red)';
+      return '![GNU Badge](https://img.shields.io/badge/License-GPLv3-blue)';
     case 'Creative Commons Zero v1.0':
       
-      return '![Creative Commons Badge](https://img.shields.io/badge/License-Creative_Commons-red)';
+      return '![Creative Commons Badge](https://img.shields.io/badge/License-CC0_1.0-orange)';
     default:
       return '';
   }
@@ -66,8 +66,6 @@ ${usage}
 ${credits}
 
 ${renderLicenseSection(license)}
-
-## Features
 
 ## How to Contribute
 ${contribution}
