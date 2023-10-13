@@ -1,25 +1,14 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer')
 const fs = require('fs')
+
 // TODO: Create an array of questions for user input
-const questions = [];
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
-
-
-const generateREADME = ({githubUn, email, title, description, install, usage, contribution, test}) =>
-  `# <Your-Project-Title>
+const generateREADME = ({githubUn, email, title, license, description, install, usage, contribution, test}) =>
+  `# ${title}
 
   ## Description
-  
-  ## Table of Contents (Optional)
+  ${description}
+  ## Table of Contents
   
   - [Installation](#installation)
   - [Usage](#usage)
@@ -27,13 +16,13 @@ const generateREADME = ({githubUn, email, title, description, install, usage, co
   - [License](#license)
   
   ## Installation
-  
+  ${install}
   ## Usage
-  
+  ${usage}
   ## Credits
   
   ## License
- 
+ ${license}
   ## Badges
  
   ## Features
@@ -70,7 +59,7 @@ inquirer
       type: 'input',
       name: 'license',
       message: 'What kind of license should your project have?',
-      choices: 'MIT', 'Other choice',
+      choices: ['MIT License', 'Apache License 2.0', 'GNU General Public License v3.0', 'Creative Commons Zero v1.0'],
     },
     {
       type: 'input',
@@ -88,10 +77,16 @@ inquirer
       message: 'What command should be run to run tests?',
       },
   ])
+
   .then((answers) => {
     const mdContent = generateREADME(answers);
-
+  // TODO: Create a function to write README file
     fs.writeFile('./output/README.md', mdContent, (err) =>
       err ? console.log(err) : console.log('Successfully created README.md!')
     );
   });
+// TODO: Create a function to initialize app
+function init() {}
+
+// Function call to initialize app
+init();
