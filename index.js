@@ -22,16 +22,17 @@ const generateREADME = ({githubUn, email, title, license, description, install, 
   ## Credits
   
   ## License
- ${license}
+  ${license}
   ## Badges
  
   ## Features
     
   ## How to Contribute
- 
+  ${contribution}
   ## Tests
-  
-  ## Questions`
+    ${test}
+  ## Questions
+  Please visit [my GitHub](http://www.github.com/${githubUn}) or [email me](mailto:${email}) me with any questions.`
 
 inquirer
   .prompt([
